@@ -18,11 +18,11 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void boton7(View view){
-        NavController navController= Navigation.findNavController(this,R.id.fragmentContainerView2);
+        NavController navController= Navigation.findNavController(this,R.id.fragmentContainerView);
         navController.navigate(R.id.FirstFragment);
     }
     public void boton8(View view){
-        NavController navController= Navigation.findNavController(this,R.id.fragmentContainerView2);
+        NavController navController= Navigation.findNavController(this,R.id.fragmentContainerView);
         navController.navigate(R.id.SecondFragment);
     }
 }
